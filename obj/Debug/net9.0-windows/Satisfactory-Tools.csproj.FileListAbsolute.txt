@@ -1,0 +1,16 @@
+C:\Users\SirFoomy\source\repos\Satisfactory-Tools\bin\Debug\net9.0-windows\Satisfactory-Tools.exe
+C:\Users\SirFoomy\source\repos\Satisfactory-Tools\bin\Debug\net9.0-windows\Satisfactory-Tools.deps.json
+C:\Users\SirFoomy\source\repos\Satisfactory-Tools\bin\Debug\net9.0-windows\Satisfactory-Tools.runtimeconfig.json
+C:\Users\SirFoomy\source\repos\Satisfactory-Tools\bin\Debug\net9.0-windows\Satisfactory-Tools.dll
+C:\Users\SirFoomy\source\repos\Satisfactory-Tools\bin\Debug\net9.0-windows\Satisfactory-Tools.pdb
+C:\Users\SirFoomy\source\repos\Satisfactory-Tools\obj\Debug\net9.0-windows\Satisfactory_Tools.Form1.resources
+C:\Users\SirFoomy\source\repos\Satisfactory-Tools\obj\Debug\net9.0-windows\Satisfactory-Tools.csproj.GenerateResource.cache
+C:\Users\SirFoomy\source\repos\Satisfactory-Tools\obj\Debug\net9.0-windows\Satisfactory-Tools.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SirFoomy\source\repos\Satisfactory-Tools\obj\Debug\net9.0-windows\Satisfactory-Tools.AssemblyInfoInputs.cache
+C:\Users\SirFoomy\source\repos\Satisfactory-Tools\obj\Debug\net9.0-windows\Satisfactory-Tools.AssemblyInfo.cs
+C:\Users\SirFoomy\source\repos\Satisfactory-Tools\obj\Debug\net9.0-windows\Satisfactory-Tools.csproj.CoreCompileInputs.cache
+C:\Users\SirFoomy\source\repos\Satisfactory-Tools\obj\Debug\net9.0-windows\Satisfactory-Tools.dll
+C:\Users\SirFoomy\source\repos\Satisfactory-Tools\obj\Debug\net9.0-windows\refint\Satisfactory-Tools.dll
+C:\Users\SirFoomy\source\repos\Satisfactory-Tools\obj\Debug\net9.0-windows\Satisfactory-Tools.pdb
+C:\Users\SirFoomy\source\repos\Satisfactory-Tools\obj\Debug\net9.0-windows\Satisfactory-Tools.genruntimeconfig.cache
+C:\Users\SirFoomy\source\repos\Satisfactory-Tools\obj\Debug\net9.0-windows\ref\Satisfactory-Tools.dll
