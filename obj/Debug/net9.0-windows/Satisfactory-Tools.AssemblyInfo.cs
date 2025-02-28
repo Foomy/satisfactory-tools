@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Satisfactory-Tools")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+11e034b6ee502da77d5ca87bf49d5964ccb3972f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Satisfactory-Tools")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Satisfactory-Tools")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

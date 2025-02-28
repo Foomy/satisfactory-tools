@@ -14,3 +14,5 @@ C:\Users\SirFoomy\source\repos\Satisfactory-Tools\obj\Debug\net9.0-windows\refin
 C:\Users\SirFoomy\source\repos\Satisfactory-Tools\obj\Debug\net9.0-windows\Satisfactory-Tools.pdb
 C:\Users\SirFoomy\source\repos\Satisfactory-Tools\obj\Debug\net9.0-windows\Satisfactory-Tools.genruntimeconfig.cache
 C:\Users\SirFoomy\source\repos\Satisfactory-Tools\obj\Debug\net9.0-windows\ref\Satisfactory-Tools.dll
+C:\Users\SirFoomy\source\repos\Satisfactory-Tools\obj\Debug\net9.0-windows\Satisfactory-Tools.sourcelink.json
+C:\Users\SirFoomy\source\repos\Satisfactory-Tools\bin\Debug\net9.0-windows\assets\images\Aperture_Science_indicator_floor_blue-32px.png

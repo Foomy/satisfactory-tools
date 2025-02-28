@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             menuStrip1 = new MenuStrip();
             applicationToolStripMenuItem = new ToolStripMenuItem();
             exitToolStripMenuItem = new ToolStripMenuItem();
@@ -38,6 +39,7 @@
             calcSquareRootsButton = new Button();
             numeratorInputTextBox = new TextBox();
             label1 = new Label();
+            imageList1 = new ImageList(components);
             menuStrip1.SuspendLayout();
             panelSquareLayout.SuspendLayout();
             SuspendLayout();
@@ -120,6 +122,12 @@
             label1.TabIndex = 4;
             label1.Text = "Please enter a positive integer:";
             // 
+            // imageList1
+            // 
+            imageList1.ColorDepth = ColorDepth.Depth32Bit;
+            imageList1.ImageSize = new Size(16, 16);
+            imageList1.TransparentColor = Color.Transparent;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -151,5 +159,6 @@
         private Label label1;
         private Button calcSquareRootsButton;
         private Label squareDivisorsLabel;
+        private ImageList imageList1;
     }
 }

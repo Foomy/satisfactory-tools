@@ -31,15 +31,32 @@ namespace Satisfactory_Tools
             squareDivisorsLabel.Text = squareDivisorsLabel.Text.Replace("{input}", numeratorInputTextBox.Text);
             squareDivisorsLabel.Text = squareDivisorsLabel.Text.Replace("{divisors}", String.Join(", ", squareRootDivisors));
 
-            PictureBox aperture = new PictureBox();
-            aperture.Load(@"C:\Users\SirFoomy\source\repos\Satisfactory-Tools\assets\images\Aperture_Science_indicator_floor_blue-32px.png");
+            foreach (int sqrtDiv in squareRootDivisors) 
+            {
+                
+            }
+
+
+            SftPictureBox aperture = this.drawPicture(new Point(50, 150));
+
+            SftPictureBox aperture2 = aperture.Clone();
+            aperture2.Location = new Point(50 + aperture.Width, 150);
+            panelSquareLayout.Controls.Add(aperture2);
+        }
+
+        private SftPictureBox drawPicture(Point where)
+        {
+            SftPictureBox aperture = new SftPictureBox();
+
+            aperture.Load(Path.Combine(Application.StartupPath, @"assets\images\Aperture_Science_indicator_floor_blue-32px.png"));
             aperture.Width = 32;
             aperture.Height = 32;
-
-            //aperture.Location = new Point(50, 150);
+            aperture.Margin = new Padding(5, 0, 0, 0);
+            aperture.Location = where;
 
             panelSquareLayout.Controls.Add(aperture);
-            panelSquareLayout.Controls.SetChildIndex(aperture, 50);
+
+            return aperture;
         }
     }
 }
