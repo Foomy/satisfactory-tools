@@ -1,11 +1,17 @@
 namespace Satisfactory_Tools
 {
-    public partial class Form1 : Form
+    public partial class MainForm : Form
     {
-        public Form1()
+        public MainForm()
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -17,9 +23,9 @@ namespace Satisfactory_Tools
             panelSquareLayout.Visible = true;
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void machineCalculatorToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            panelMachineCalculator.Visible = true;
         }
 
         private void calcSquareRootsButton_Click(object sender, EventArgs e)
@@ -31,9 +37,9 @@ namespace Satisfactory_Tools
             squareDivisorsLabel.Text = squareDivisorsLabel.Text.Replace("{input}", numeratorInputTextBox.Text);
             squareDivisorsLabel.Text = squareDivisorsLabel.Text.Replace("{divisors}", String.Join(", ", squareRootDivisors));
 
-            foreach (int sqrtDiv in squareRootDivisors) 
+            foreach (int sqrtDiv in squareRootDivisors)
             {
-                
+
             }
 
 

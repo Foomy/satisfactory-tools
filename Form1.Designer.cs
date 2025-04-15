@@ -1,6 +1,6 @@
 ﻿namespace Satisfactory_Tools
 {
-    partial class Form1
+    partial class MainForm
     {
         /// <summary>
         ///  Required designer variable.
@@ -33,6 +33,7 @@
             applicationToolStripMenuItem = new ToolStripMenuItem();
             exitToolStripMenuItem = new ToolStripMenuItem();
             squareLayoutToolStripMenuItem = new ToolStripMenuItem();
+            machineCalculatorToolStripMenuItem = new ToolStripMenuItem();
             fontDialog1 = new FontDialog();
             panelSquareLayout = new Panel();
             squareDivisorsLabel = new Label();
@@ -40,17 +41,23 @@
             numeratorInputTextBox = new TextBox();
             label1 = new Label();
             imageList1 = new ImageList(components);
+            panelMachineCalculator = new Panel();
+            comboBox1 = new ComboBox();
+            labelMachine = new Label();
+            labelRecipe = new Label();
+            comboBox2 = new ComboBox();
             menuStrip1.SuspendLayout();
             panelSquareLayout.SuspendLayout();
+            panelMachineCalculator.SuspendLayout();
             SuspendLayout();
             // 
             // menuStrip1
             // 
             menuStrip1.ImageScalingSize = new Size(20, 20);
-            menuStrip1.Items.AddRange(new ToolStripItem[] { applicationToolStripMenuItem, squareLayoutToolStripMenuItem });
+            menuStrip1.Items.AddRange(new ToolStripItem[] { applicationToolStripMenuItem, squareLayoutToolStripMenuItem, machineCalculatorToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new Size(1728, 28);
+            menuStrip1.Size = new Size(1349, 28);
             menuStrip1.TabIndex = 0;
             menuStrip1.Text = "menuStrip1";
             // 
@@ -75,15 +82,24 @@
             squareLayoutToolStripMenuItem.Text = "Square Layout";
             squareLayoutToolStripMenuItem.Click += squareLayoutToolStripMenuItem_Click;
             // 
+            // machineCalculatorToolStripMenuItem
+            // 
+            machineCalculatorToolStripMenuItem.Name = "machineCalculatorToolStripMenuItem";
+            machineCalculatorToolStripMenuItem.Size = new Size(150, 24);
+            machineCalculatorToolStripMenuItem.Text = "Machine Calculator";
+            machineCalculatorToolStripMenuItem.Click += machineCalculatorToolStripMenuItem_Click;
+            // 
             // panelSquareLayout
             // 
+            panelSquareLayout.AutoSize = true;
             panelSquareLayout.Controls.Add(squareDivisorsLabel);
             panelSquareLayout.Controls.Add(calcSquareRootsButton);
             panelSquareLayout.Controls.Add(numeratorInputTextBox);
             panelSquareLayout.Controls.Add(label1);
-            panelSquareLayout.Location = new Point(12, 31);
+            panelSquareLayout.Dock = DockStyle.Fill;
+            panelSquareLayout.Location = new Point(0, 28);
             panelSquareLayout.Name = "panelSquareLayout";
-            panelSquareLayout.Size = new Size(1704, 995);
+            panelSquareLayout.Size = new Size(1349, 863);
             panelSquareLayout.TabIndex = 1;
             panelSquareLayout.Visible = false;
             // 
@@ -128,21 +144,72 @@
             imageList1.ImageSize = new Size(16, 16);
             imageList1.TransparentColor = Color.Transparent;
             // 
-            // Form1
+            // panelMachineCalculator
+            // 
+            panelMachineCalculator.AutoSize = true;
+            panelMachineCalculator.Controls.Add(labelRecipe);
+            panelMachineCalculator.Controls.Add(comboBox2);
+            panelMachineCalculator.Controls.Add(labelMachine);
+            panelMachineCalculator.Controls.Add(comboBox1);
+            panelMachineCalculator.Dock = DockStyle.Fill;
+            panelMachineCalculator.Location = new Point(0, 28);
+            panelMachineCalculator.Name = "panelMachineCalculator";
+            panelMachineCalculator.Size = new Size(1349, 863);
+            panelMachineCalculator.TabIndex = 9;
+            panelMachineCalculator.Visible = false;
+            // 
+            // comboBox1
+            // 
+            comboBox1.FormattingEnabled = true;
+            comboBox1.Location = new Point(27, 57);
+            comboBox1.Name = "comboBox1";
+            comboBox1.Size = new Size(196, 28);
+            comboBox1.TabIndex = 0;
+            // 
+            // labelMachine
+            // 
+            labelMachine.AutoSize = true;
+            labelMachine.Location = new Point(27, 23);
+            labelMachine.Name = "labelMachine";
+            labelMachine.Size = new Size(68, 20);
+            labelMachine.TabIndex = 1;
+            labelMachine.Text = "Machine:";
+            // 
+            // labelRecipe
+            // 
+            labelRecipe.AutoSize = true;
+            labelRecipe.Location = new Point(244, 23);
+            labelRecipe.Name = "labelRecipe";
+            labelRecipe.Size = new Size(57, 20);
+            labelRecipe.TabIndex = 3;
+            labelRecipe.Text = "Recipe:";
+            // 
+            // comboBox2
+            // 
+            comboBox2.FormattingEnabled = true;
+            comboBox2.Location = new Point(244, 57);
+            comboBox2.Name = "comboBox2";
+            comboBox2.Size = new Size(196, 28);
+            comboBox2.TabIndex = 2;
+            // 
+            // MainForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1728, 1038);
+            ClientSize = new Size(1349, 891);
+            Controls.Add(panelMachineCalculator);
             Controls.Add(panelSquareLayout);
             Controls.Add(menuStrip1);
             MainMenuStrip = menuStrip1;
-            Name = "Form1";
-            Text = "Form1";
+            Name = "MainForm";
+            Text = "Satisfactory Tools";
             Load += Form1_Load;
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
             panelSquareLayout.ResumeLayout(false);
             panelSquareLayout.PerformLayout();
+            panelMachineCalculator.ResumeLayout(false);
+            panelMachineCalculator.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -160,5 +227,11 @@
         private Button calcSquareRootsButton;
         private Label squareDivisorsLabel;
         private ImageList imageList1;
+        private ToolStripMenuItem machineCalculatorToolStripMenuItem;
+        private Panel panelMachineCalculator;
+        private Label labelRecipe;
+        private ComboBox comboBox2;
+        private Label labelMachine;
+        private ComboBox comboBox1;
     }
 }
