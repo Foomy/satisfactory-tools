@@ -1,0 +1,62 @@
+{
+  "buildings": [
+    {
+      "name": "Smelter",
+      "recipes": [
+        {
+          "name": "Iron ingots",
+          "materials": [
+            {
+              "name": "Iron ore",
+              "amount": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Foundry",
+      "recipes": [
+        {
+          "name": "Steel ingots",
+          "output": 45,
+          "materials": [
+            {
+              "name": "Iron ore",
+              "input": 45
+            },
+            {
+              "name": "Coal",
+              "input": 45
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Constructor",
+      "recipes": [
+        {
+          "name": "Iron Plates",
+          "output": 20,
+          "materials": [
+            {
+              "name": "Iron ingot",
+              "input": 30
+            }
+          ]
+        },
+        {
+          "name": "Iron Rods",
+          "output": 15,
+          "materials": [
+            {
+              "name": "Iron ore",
+              "amount": 15
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+Building
+	- id
+	- created
+	- modified
+	- name
+	
+Recipe
+	- id
+	- building_id
+	- created
+	- modified
+	- name
+	- input1
+	- input2
+	- input3
+	- input4

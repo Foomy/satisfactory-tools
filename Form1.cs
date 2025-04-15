@@ -1,10 +1,20 @@
+using Newtonsoft.Json;
+using Satisfactory_Tools.model;
+
 namespace Satisfactory_Tools
 {
-    public partial class Form1 : Form
+    public partial class MainForm : Form
     {
-        public Form1()
+        Root _root = new Root();
+
+        public MainForm()
         {
             InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
@@ -14,12 +24,40 @@ namespace Satisfactory_Tools
 
         private void squareLayoutToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            HidePanels();
             panelSquareLayout.Visible = true;
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void HidePanels()
         {
+            panelSquareLayout.Visible = false;
+            panelMachineCalculator.Visible = false;
+        }
 
+        private void machineCalculatorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            HidePanels();
+            var myJsonResponse = File.ReadAllText(Path.Combine(Application.StartupPath, "model\\data.json"));
+            _root = JsonConvert.DeserializeObject<Root>(myJsonResponse);
+
+            if (_root != null)
+            {
+                foreach (var building in _root.Buildings)
+                {
+                    comboBoxBuildings.Items.Add(building);
+                }
+
+                panelMachineCalculator.Visible = true;
+            }
+        }
+        private void comboBoxBuildings_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            comboBoxRecipes.Items.Clear();
+
+            foreach (var recipe in ((Building)comboBoxBuildings.Items[comboBoxBuildings.SelectedIndex]).Recipes)
+            {
+                comboBoxRecipes.Items.Add(recipe);
+            }
         }
 
         private void calcSquareRootsButton_Click(object sender, EventArgs e)
@@ -31,9 +69,9 @@ namespace Satisfactory_Tools
             squareDivisorsLabel.Text = squareDivisorsLabel.Text.Replace("{input}", numeratorInputTextBox.Text);
             squareDivisorsLabel.Text = squareDivisorsLabel.Text.Replace("{divisors}", String.Join(", ", squareRootDivisors));
 
-            foreach (int sqrtDiv in squareRootDivisors) 
+            foreach (int sqrtDiv in squareRootDivisors)
             {
-                
+
             }
 
 
@@ -58,5 +96,6 @@ namespace Satisfactory_Tools
 
             return aperture;
         }
+
     }
 }

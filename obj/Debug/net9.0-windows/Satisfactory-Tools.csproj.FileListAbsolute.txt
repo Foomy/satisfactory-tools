@@ -3,7 +3,6 @@ C:\Users\SirFoomy\source\repos\Satisfactory-Tools\bin\Debug\net9.0-windows\Satis
 C:\Users\SirFoomy\source\repos\Satisfactory-Tools\bin\Debug\net9.0-windows\Satisfactory-Tools.runtimeconfig.json
 C:\Users\SirFoomy\source\repos\Satisfactory-Tools\bin\Debug\net9.0-windows\Satisfactory-Tools.dll
 C:\Users\SirFoomy\source\repos\Satisfactory-Tools\bin\Debug\net9.0-windows\Satisfactory-Tools.pdb
-C:\Users\SirFoomy\source\repos\Satisfactory-Tools\obj\Debug\net9.0-windows\Satisfactory_Tools.Form1.resources
 C:\Users\SirFoomy\source\repos\Satisfactory-Tools\obj\Debug\net9.0-windows\Satisfactory-Tools.csproj.GenerateResource.cache
 C:\Users\SirFoomy\source\repos\Satisfactory-Tools\obj\Debug\net9.0-windows\Satisfactory-Tools.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\SirFoomy\source\repos\Satisfactory-Tools\obj\Debug\net9.0-windows\Satisfactory-Tools.AssemblyInfoInputs.cache
@@ -16,3 +15,8 @@ C:\Users\SirFoomy\source\repos\Satisfactory-Tools\obj\Debug\net9.0-windows\Satis
 C:\Users\SirFoomy\source\repos\Satisfactory-Tools\obj\Debug\net9.0-windows\ref\Satisfactory-Tools.dll
 C:\Users\SirFoomy\source\repos\Satisfactory-Tools\obj\Debug\net9.0-windows\Satisfactory-Tools.sourcelink.json
 C:\Users\SirFoomy\source\repos\Satisfactory-Tools\bin\Debug\net9.0-windows\assets\images\Aperture_Science_indicator_floor_blue-32px.png
+C:\Users\SirFoomy\source\repos\Satisfactory-Tools\obj\Debug\net9.0-windows\Satisfactory_Tools.MainForm.resources
+C:\Users\SirFoomy\source\repos\Satisfactory-Tools\bin\Debug\net9.0-windows\model\data.json
+C:\Users\SirFoomy\source\repos\Satisfactory-Tools\bin\Debug\net9.0-windows\Newtonsoft.Json.dll
+C:\Users\SirFoomy\source\repos\Satisfactory-Tools\obj\Debug\net9.0-windows\Satisfactory-Tools.csproj.AssemblyReference.cache
+C:\Users\SirFoomy\source\repos\Satisfactory-Tools\obj\Debug\net9.0-windows\Satisfac.8445B8E8.Up2Date
